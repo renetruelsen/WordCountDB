@@ -6,7 +6,7 @@ namespace DocumentAnalyzer.Models
     {
         public WordCountUploadResponse() { }
 
-        public WordCountUploadResponse(List<WordCountModel> result)
+        public WordCountUploadResponse(List<WordCountItem> result)
         {
             foreach(var item in result) {
                 Add(new WordCountUploadResponseItem(item.Word, item.Count));
@@ -34,9 +34,10 @@ namespace DocumentAnalyzer.Models
         public required IFormFile UploadFile { get; set; }
     }
 
-    public class WordCountModel
+    public class WordCountItem
     {
         public required string Word { get; set; }
         public int Count { get; set; }
     }
+
 }
