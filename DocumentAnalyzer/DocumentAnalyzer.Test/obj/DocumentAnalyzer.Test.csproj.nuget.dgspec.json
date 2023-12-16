@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer.Test\\DocumentAnalyzer.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer.Test\\DocumentAnalyzer.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer.Test\\DocumentAnalyzer.Test.csproj",
+        "projectName": "DocumentAnalyzer.Test",
+        "projectPath": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer.Test\\DocumentAnalyzer.Test.csproj",
+        "packagesPath": "C:\\Users\\rtr\\.nuget\\packages\\",
+        "outputPath": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rtr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://deploy.moment.dk/guestAuth/app/nuget/feed/_Root/MomentCommonFeed/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\DocumentAnalyzer.csproj": {
+                "projectPath": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\DocumentAnalyzer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\DocumentAnalyzer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\DocumentAnalyzer.csproj",
+        "projectName": "DocumentAnalyzer",
+        "projectPath": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\DocumentAnalyzer.csproj",
+        "packagesPath": "C:\\Users\\rtr\\.nuget\\packages\\",
+        "outputPath": "C:\\Udvikling\\Git\\WordCountDB\\DocumentAnalyzer\\DocumentAnalyzer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rtr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://deploy.moment.dk/guestAuth/app/nuget/feed/_Root/MomentCommonFeed/v3/index.json": {},
+          "https://nuget.telerik.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
